@@ -1,15 +1,8 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
 .blue {
     width: 100%;
     height: 535px;
     background: #1F2937;
 }
-
-/* Everything inside the .box container */
 
 .box {
     width: 1022px;
@@ -17,73 +10,89 @@ body {
     margin: 0 auto;
     position: relative;
     padding-top: 23px;
+}    
+
+/* Everything inside the navigation container */
+
+.navigation {
+    display: block; 
 }
 
-.header {
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-    color: #f9faf8;
-    float: left;
+.navigation ul {
+    list-style: none;
     display: flex;
-    font-weight: 900px;
-}
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-
-li {
-    display: flex;
+    gap: 26px;
     float: right;
+    vertical-align: center;
+    margin-right: 0px;
+    
 }
 
-
-.nav a{
-    display: flex; 
-    padding: 8px;
+.navigation a {
     text-decoration: none;
     color: #e5e7eb;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    list-style-type: none;
 }
 
+.logo {
+    display: inline-block;
+    vertical-align: center;
+    width: 152px;
+    height: 60px;
+    margin-left: 0px;
+}
 
-h1 {
+.text {
+    display: inline-block;
+    vertical-align: center;
+    margin-left: 20px;
+}
+
+.text h1 {
+    font-family: 'Roboto', sans-serif;
     font-size: 48px;
-    font-weight: extra-bold;
-    font-family: 'Roboto', sans-serif;
-    color:#f9faf8;
-    padding-top: 178px;
-    margin-bottom: 0;
+    font-weight: 900;
+    color: #f9faf8;
+    width: 450px;
+    padding-top: 100px;
+    margin: 0 auto;
 }
 
-
-p {
-    font-size: 18px;
-    color: #e5e7eb;
+.text p {
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #e5e7eb;
+    width: 430px;
     margin-top: 0;
 }
 
-
-button {
+.button {
+    display: table-cell;
+    margin-top: 20px;
+    background: #3B82F6;
     border-radius: 7px;
     border-style: none;
-    background-color: #3B82F6;
     width: 130px;
     height: 37px;
-    cursor: pointer;
-    display: inline-block;
-    align-content: flex-end;
-    color: #f9faf8;
-    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
 }
 
-text .a {
+.button a {
     text-decoration: none;
-    color: #549017;
+    color: #f9faf8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    float: right;
+    padding-top: 100px;
+}
+
