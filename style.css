@@ -7,45 +7,51 @@ body {
     width: 100%;
     height: 535px;
     background: #1F2937;
+    
 }
 
 .box {
     width: 1022px;
-    margin: 0 auto;
+    margin: auto;
     position: relative;
-    padding-top: 23px;
 }    
 
-/* Everything inside the first container */
+/* Everything inside the navigation bar */
 
 .navigation {
-    display: block; 
+    display: flex;
+    background: #1F2937;
+
 }
 
-.navigation ul {
-    list-style: none;
+ul {
     display: flex;
+    list-style: none;
     gap: 26px;
     float: right;
-    vertical-align: center;
     margin-right: 20px;
+    padding-top: 13px;
 }
 
 .navigation a {
+    list-style-type: none;
     text-decoration: none;
     color: #e5e7eb;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    list-style-type: none;
 }
 
 .logo {
-    display: inline-block;
-    vertical-align: center;
+    display: flex;
     width: 152px;
     height: 60px;
-    margin-left: 20px;
+    float: left;
+    margin: 10px;
 }
+
+
+/* Everything inside the first container */
+
 
 .text {
     display: inline-block;
@@ -89,7 +95,6 @@ body {
     color: #f9faf8;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-
 }
 
 .container {
@@ -100,12 +105,15 @@ body {
     margin-right: 20px;
 }
 
+
 /* Everything inside the second container */
+
 
 .white {
     width: 100%;
     height: 535px;
-    padding-top: 50px;
+    display: flex;
+    align-items: center;
 }
 
 .header {
@@ -149,13 +157,17 @@ body {
     padding-top: 10px;
 }
 
+
 /* Everything inside the third container */
+
 
 .grey {
     width: 100%;
     height: 535px;
     background: #e5e7eb;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .grey div.box {
@@ -164,7 +176,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 150px;
 }
 
 .quote h3 {
@@ -184,4 +195,72 @@ body {
     font-size: 24px;
     font-weight: 700;
     color: #1F2937;
+}
+
+
+/* Everything inside the fourth container */
+
+
+.action {
+    width: 100%;
+    height: 150px;
+    background: #3B82F6;
+    border-radius: 7px;
+}
+
+.action h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.action p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    color: #FFFFFF;
+    padding-left: 100px;
+}
+
+.action div.button {
+    float: right;
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    margin-top: -45px;
+    margin-right: 120px;
+}
+
+
+/* Everything inside the footer container */
+
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: #1F2937;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
 }
